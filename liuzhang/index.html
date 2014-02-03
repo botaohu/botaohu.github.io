@@ -94,7 +94,7 @@
     function OnLoad() {
 
       $('#button').click(function (event) {
-          words = $('#text').text().split(',');
+          words = $('#text').val().split(',');
           $('#form').hide();
           // Our ImageSearch instance.
           var imageSearch = new google.search.ImageSearch();
